@@ -5,7 +5,7 @@ https://fedoraproject.org/misc/#everything
 <img width="1402" height="368" alt="Screenshot_20261024_214147" src="https://github.com/user-attachments/assets/3e56114d-1e40-491c-abf6-2dd490c7533e" />
 
 ```sh
-sudo dnf install plasma-bigscreen plasma-nm kde-connect
+sudo dnf install plasma-bigscreen plasma-nm kde-connect dolphin
 ```
 ```sh
 printf '[Wallet]\nEnabled=false' > ~/.config/kwalletrc
