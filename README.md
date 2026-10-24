@@ -32,7 +32,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 log in and out, or else we wont see flatpaks
 
 ```sh
-flatpak install bazaar
+flatpak install io.github.kolunmi.Bazaar it.mijorus.gearlever
 ```
 
 you probably want to enable auto security updates
