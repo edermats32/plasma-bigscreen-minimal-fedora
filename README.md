@@ -1,4 +1,4 @@
-<img width="1091" height="426" alt="image" src="https://github.com/user-attachments/assets/8f418908-137f-4217-8270-7a89d97b6281" /># plasma-bigscreen-minimal-fedora
+# plasma-bigscreen-minimal-fedora
 
 https://fedoraproject.org/misc/#everything
 
