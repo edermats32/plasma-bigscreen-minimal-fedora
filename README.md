@@ -45,6 +45,10 @@ Other applications probably do the same.
 You want to setup some soft of soft reset keybind.
 I'm using `META+CTRL+ALT+SHIFT+Backspace` to run:
 ```sh
+systemctl --user exit
+```
+or, but more agressive:
+```sh
 sh -c "loginctl terminate-user $USER"
 ```
 
