@@ -1,4 +1,4 @@
-# plasma-bigscreen-minimal-fedora
+<img width="1091" height="426" alt="image" src="https://github.com/user-attachments/assets/8f418908-137f-4217-8270-7a89d97b6281" /># plasma-bigscreen-minimal-fedora
 
 https://fedoraproject.org/misc/#everything
 
@@ -39,6 +39,16 @@ log in and out, or else we wont see flatpaks
 ```sh
 flatpak install io.github.kolunmi.Bazaar it.mijorus.gearlever
 ```
+
+Gear Lever hangs when trying to change destination for some reason.  
+Other applications probably do the same.  
+You want to setup some soft of soft reset keybind.
+I'm using `META+CTRL+ALT+SHIFT+Backspace` to run:
+```sh
+sh -c "loginctl terminate-user $USER"
+```
+
+<img width="1091" height="426" alt="image" src="https://github.com/user-attachments/assets/e7951754-9deb-4f58-a0a7-8dfbb9867e75" />
 
 you probably want to enable auto security updates
 ```sh
