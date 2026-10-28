@@ -17,7 +17,13 @@ sudo dnf install cool-retro-term fastfetch
 sudo dnf install plasma-login-manager
 ```
 ```sh
-sudo systemctl enable --now plasmalogin.service
+sudo systemctl enable --force plasmalogin.service
+```
+```sh
+sudo systemctl set-default graphical.target
+```
+```sh
+sudo systemctl start plasmalogin.service
 ```
 <img width="1039" height="631" alt="Screenshot_20261024_233523" src="https://github.com/user-attachments/assets/ecaa11db-3134-4213-bf32-8ece945edd3d" />
 <img width="1039" height="631" alt="Screenshot_20261024_234559" src="https://github.com/user-attachments/assets/6973b83d-0844-4447-adbd-d84ac593bb9b" />
