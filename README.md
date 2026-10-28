@@ -11,6 +11,9 @@ sudo dnf install plasma-bigscreen plasma-nm kde-connect dolphin plasma-systemmon
 printf '[Wallet]\nEnabled=false' > ~/.config/kwalletrc
 ```
 ```sh
+sudo firewall-cmd --add-service=kdeconnect
+```
+```sh
 sudo dnf install cool-retro-term fastfetch
 ```
 ```sh
@@ -29,10 +32,6 @@ sudo systemctl start plasmalogin.service
 <img width="1039" height="631" alt="Screenshot_20261024_234559" src="https://github.com/user-attachments/assets/6973b83d-0844-4447-adbd-d84ac593bb9b" />
 <img width="1172" height="752" alt="Screenshot_20261025_012817" src="https://github.com/user-attachments/assets/81ad0333-2952-4794-99da-a7266c250b9d" />
 
-add keybinds that does
-```sh
-loginctl terminate-user $USER
-```
 ```sh
 sudo dnf install flatpak
 ```
