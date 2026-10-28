@@ -11,7 +11,10 @@ sudo dnf install plasma-bigscreen plasma-nm kde-connect dolphin plasma-systemmon
 printf '[Wallet]\nEnabled=false' > ~/.config/kwalletrc
 ```
 ```sh
-sudo firewall-cmd --add-service=kdeconnect
+sudo firewall-cmd --add-service=kdeconnect --permanent
+```
+```sh
+sudo firewall-cmd --reload
 ```
 ```sh
 sudo dnf install cool-retro-term fastfetch
