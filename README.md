@@ -59,7 +59,7 @@ you probably want to enable auto security updates
 sudo dnf install dnf5-plugin-automatic
 ```
 ```sh
-sudo printf '%s\n' \
+printf '%s\n' \
 '[commands]' \
 'apply_updates = yes' \
 'download_updates = yes' \
@@ -67,7 +67,7 @@ sudo printf '%s\n' \
 'random_sleep = 0' \
 'upgrade_type = security' \
 'reboot = never' \
-> /etc/dnf/automatic.conf
+| sudo tee /etc/dnf/automatic.conf
 ```
 ```sh
 sudo systemctl enable --now dnf5-automatic.timer
