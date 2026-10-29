@@ -17,6 +17,9 @@ sudo firewall-cmd --add-service=kdeconnect --permanent
 sudo firewall-cmd --reload
 ```
 ```sh
+sudo usermod -aG input $USER
+```
+```sh
 sudo dnf install cool-retro-term fastfetch
 ```
 ```sh
