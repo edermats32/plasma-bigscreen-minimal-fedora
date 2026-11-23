@@ -83,3 +83,14 @@ printf '%s\n' \
 ```sh
 sudo systemctl enable --now dnf5-automatic.timer
 ```
+# Changing controller mapping
+Plasma Bigscreen uses SDL  
+I use AntiMicroX to configure bindings:
+```sh
+flatpak install io.github.antimicrox.antimicrox
+```
+Then save it to `~/.config/sdl-gamecontrollerdb.txt`  
+To make them work on login:
+```sh
+printf "SDL_GAMECONTROLLERCONFIG_FILE=$HOME/.config/sdl-gamecontrollerdb.txt" > ~/.config/environment.d/60-sdl.conf
+```
