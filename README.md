@@ -89,7 +89,11 @@ I use AntiMicroX to configure bindings:
 ```sh
 flatpak install io.github.antimicrox.antimicrox
 ```
-Then save it to `~/.config/sdl-gamecontrollerdb.txt`  
+Then save them to `~/.config/sdl-gamecontrollerdb.txt`, example:
+```txt
+030002afc82d000006310000140100001172012550,8BitDo Ultimate Wireless Controller,platform:Linux,a:b1,b:b0,x:b3,y:b2,back:b6,start:b7,guide:b8,leftshoulder:b4,rightshoulder:b5,leftstick:b9,rightstick:b10,leftx:a0,lefty:a1,rightx:a3,righty:a4,lefttrigger:a2,righttrigger:a5,dpup:h0.1,dpleft:h0.8,dpdown:h0.4,dpright:h0.2,
+0500d6405e040000e0020000030900001118736,Xbox One Controller,platform:Linux,a:b1,b:b0,x:b3,y:b2,back:b6,start:b7,guide:b10,leftshoulder:b4,rightshoulder:b5,leftstick:b8,rightstick:b9,leftx:a0,lefty:a1,rightx:a3,righty:a4,lefttrigger:a2,righttrigger:a5,dpup:h0.1,dpleft:h0.8,dpdown:h0.4,dpright:h0.2,
+```
 To make them work on login:
 ```sh
 printf "SDL_GAMECONTROLLERCONFIG_FILE=$HOME/.config/sdl-gamecontrollerdb.txt" > ~/.config/environment.d/60-sdl.conf
